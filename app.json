@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FirstReactapp",
+    "name": "To Do Reminder",
     "slug": "FirstReactapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.vyshnav_cp.FirstReactapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bc975d14-c255-4972-937d-5d7664e8fc16"
+      }
     }
   }
 }
